@@ -54,9 +54,3 @@ vector<int> solution(vector<int> answers) {
         answer.push_back(3);
     return answer;
 }
-
-int main(void)
-{
-    vector<int> answers{1, 3, 3, 4, 5};
-    solution(answers);
-}
