@@ -12,6 +12,11 @@ YS feedback:
     | 연산자 우선순위
     | 큐 끝부분 처리
 
+    이번 문제에서 배운 것 
+1) string 처리
+2) 벡터 지우기 (erase)
+3) next_permutation 함수 이용(조합)
+4) for(char c : expressiong)으로 사용 가능
 */
 
 
@@ -20,46 +25,74 @@ YS feedback:
 #include <string.h>
 #include <iostream>
 #include <cstdlib>
+#include <algorithm>
 
 using namespace std;
 
 long long solution(string expression) 
 {
     long long answer = 0;
-    char s[1000];
-    vector<int> operand_{};
+    vector<long long> operand_{};
     vector<char> operator_{};
-    char* context;
-    char* token;
-    char idx = 0;
+    vector<char> pri_op_{};
+    string num;
+    long long max_value;
 
-    strcpy_s(s, expression.c_str());
-    while (s[idx]) 
+    for (char c : expression)
     {
-        if (s[idx] == '+')
-            operator_.push_back('+');
-        else if(s[idx] == '-')
-            operator_.push_back('-');
-        else if(s[idx] == '*')
-            operator_.push_back('*');
-        idx++;
+        if (c == '+' || c == '-' || c == '*')
+        {
+            operand_.push_back((long long)stoi(num));
+            if (find(pri_op_.begin(), pri_op_.end(), c) == pri_op_.end())
+                pri_op_.push_back(c);
+            operator_.push_back(c);
+            num = "";
+         }
+        else
+            num += c;
     }
-    token = strtok_s(s, "+-*", &context);
-    while (token != NULL)
+    operand_.push_back((long long)stoi(num));
+
+    sort(pri_op_.begin(), pri_op_.end());
+    /*
+        100 200 300 400 500
+        + + - *
+    
+    */
+    max_value = 0;
+    do
     {
-        operand_.push_back(atoi(token));
-        cout << atoi(token) << endl;
-        token = strtok_s(NULL, "+-*", &context);
-    }
-    cout << operand_.size() << endl;
-    cout << operator_.size() << endl;
-    return answer;
+        vector<long long> num_ = operand_;
+        vector<char> op_ = operator_;
+        for (char c : pri_op_) 
+        {
+            for (int idx = 0; idx < op_.size(); idx++)
+            {
+                if (c == op_[idx])
+                {
+                    if (c == '+')
+                        num_[idx] += num_[idx + 1];
+                    if (c == '-')
+                        num_[idx] -= num_[idx + 1];
+                    if (c == '*')
+                        num_[idx] *= num_[idx + 1];
+                    num_.erase(num_.begin() + idx + 1);
+                    op_.erase(op_.begin() + idx);
+                    idx--;
+                } 
+            }
+        }
+        max_value = max(max_value, abs(num_[0]));
+    } while (next_permutation(pri_op_.begin(), pri_op_.end()));
+
+    return max_value;
 }
 
 int main(void)
 {
-    string s = "100-200*300-500+20";
+    string s = "50*6-3*2";
     long long result;
     
     result = solution(s);
+    cout << result << endl;
 }
