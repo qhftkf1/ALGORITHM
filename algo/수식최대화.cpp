@@ -58,7 +58,7 @@ long long solution(string expression)
         100 200 300 400 500
         + + - *
     
-    */
+    
     max_value = 0;
     do
     {
@@ -86,13 +86,4 @@ long long solution(string expression)
     } while (next_permutation(pri_op_.begin(), pri_op_.end()));
 
     return max_value;
-}
-
-int main(void)
-{
-    string s = "50*6-3*2";
-    long long result;
-    
-    result = solution(s);
-    cout << result << endl;
 }
