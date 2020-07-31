@@ -142,6 +142,7 @@
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="수식최대화.cpp" />
     <ClCompile Include="체육복.cpp" />
+    <ClCompile Include="괄호변환.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
