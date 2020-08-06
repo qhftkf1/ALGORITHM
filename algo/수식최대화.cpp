@@ -12,7 +12,7 @@ YS feedback:
     | 연산자 우선순위
     | 큐 끝부분 처리
 
-    이번 문제에서 배운 것 
+++    이번 문제에서 배운 것 
 1) string 처리
 2) 벡터 지우기 (erase)
 3) next_permutation 함수 이용(조합)

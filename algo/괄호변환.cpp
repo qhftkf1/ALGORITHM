@@ -8,6 +8,7 @@ vector<char> recursive_parcel(vector<char> parcel) {
     vector<char> v;
     vector<char> v_par;
     vector<char> result;
+
     int count = 0;
     int flag = 0;
     int v_is = 0;
@@ -70,9 +71,9 @@ string solution(string p) {
     return answer;
 }
 
-int main(void){
-    string str = "(()())()";
-    string result;
-    result = solution(str);
-    cout << result << endl;
-}
+//int main(void){
+//    string str = "(()())()";
+//    string result;
+//    result = solution(str);
+//    cout << result << endl;
+//}
