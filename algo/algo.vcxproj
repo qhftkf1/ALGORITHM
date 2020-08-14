@@ -153,6 +153,7 @@
     <ClCompile Include="보석쇼핑.cpp" />
     <ClCompile Include="카카오1번.cpp" />
     <ClCompile Include="카카오프렌즈_컬러링북.cpp" />
+    <ClCompile Include="호텔방배정.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
