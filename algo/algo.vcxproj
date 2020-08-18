@@ -138,6 +138,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="H-index.cpp" />
+    <ClCompile Include="단어변환.cpp" />
     <ClCompile Include="모의고사.cpp" />
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="불량사용자.cpp" />

@@ -4,7 +4,8 @@
 
 using namespace std;
 vector<int> check(51);
-int count = 0;
+int cnt = 0;
+int min_value = 2e9;
 int fn_compare(string a, string b) {
     int count = 0;
     int i = 0;
@@ -15,22 +16,27 @@ int fn_compare(string a, string b) {
     }
     return count;
 }
-int dfs(string begin, string target, vector<string> words) {
-    if (begin == target)
-        return count;
-    for (int i = 0; i < words.size(); i++) {
-        if()
-    }
-}
+
 int solution(string begin, string target, vector<string> words) {
-    int answer = 0;
-    cout << fn_compare(begin, target);
-    return answer;
+    if (find(words.begin(), words.end(), target) == words.end())
+        return 0;
+    if (begin == target) {
+        if (min_value > cnt)
+            min_value = cnt;
+    }
+    for (int i = 0; i < words.size(); i++) {
+        if (fn_compare(begin, words[i]) == 1 && check[i] == 0) {
+            check[i] = 1; cnt++;
+            solution(words[i], target, words);
+            check[i] = 0; cnt--;
+        }
+    }
+    return min_value;
 }
 
 int main(void) {
     string begin = "hit";
-    string target = "cog";
+    string target = "coo";
 
     vector<string> words = { "hot", "dot", "dog", "lot", "log", "cog" };
 
