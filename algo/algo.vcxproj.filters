@@ -72,5 +72,11 @@
     <ClCompile Include="튜플.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="스킬체크level1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬체크level1_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

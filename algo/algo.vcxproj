@@ -145,6 +145,8 @@
     <ClCompile Include="불량사용자.cpp" />
     <ClCompile Include="브라이언의고민.cpp" />
     <ClCompile Include="수식최대화.cpp" />
+    <ClCompile Include="스킬체크level1.cpp" />
+    <ClCompile Include="스킬체크level1_2.cpp" />
     <ClCompile Include="입국 심사.cpp" />
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="주식가격.cpp" />
