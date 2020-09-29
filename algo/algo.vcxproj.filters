@@ -13,70 +13,229 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\삼성">
+      <UniqueIdentifier>{dd7936bf-4b26-4573-b5dd-483b557e22b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{3fe35e4a-80e9-443f-b808-cff8d843b712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{dccd8ba4-1eea-4117-bd1b-0f31e958d217}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="모의고사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="수식최대화.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="체육복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="괄호변환.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="보석쇼핑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="카카오1번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="카카오프렌즈_컬러링북.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="입국 심사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="징검다리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="브라이언의고민.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="불량사용자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="조이스틱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="징검다리건너기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="주식가격.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="호텔방배정.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="H-index.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="경주로건설.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호변환.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="단어변환.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
-    <ClCompile Include="튜플.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="동굴탐험.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="모의테스프B.c">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="보석쇼핑.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="불량사용자.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="브라이언의고민.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="브랜디.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="브랜디2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="수식최대화.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬체크.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="스킬체크level1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="스킬체크level1_2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬체크level1_3.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬체크level2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬체크level4.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="입국 심사.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="자물쇠와열쇠.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="조이스틱.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="징검다리.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="징검다리건너기.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오1번.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오프렌즈_컬러링북.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="크레인 인형뽑기 게임.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="튜플.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="전봇대.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="등굣길.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="최대상금.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="초콜릿과건포도.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="단체 사진 찍기.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="구간합구하기.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="N으로 표현.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="회문1.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="자동완성.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="보급로.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="알고스팟.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="압축.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="잔디깍기.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래밍1.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래밍2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="무지의 먹방 라이브.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오1.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오3.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="라인1.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="라인2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="라인3.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="라인4.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="승자예측하기.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="드래곤커브.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트_택시.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="치킨배달.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="청소년상어.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="테트로미노.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트와링크.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="주사위굴리기.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="naver1.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="naver.2.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="naver3.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="톱니바퀴.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="야구.cpp">
+      <Filter>소스 파일\삼성</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

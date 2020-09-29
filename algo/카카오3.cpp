@@ -15,7 +15,7 @@
 //    }
 //    return 4;
 //}
-//void check_dfs(p ty_p) {
+//void check_dfs(p& ty_p) {// string 복사가 계속 있어남. &를 사용해 개선시킬 수 있음.
 //    
 //    int idx = get_zeroIdx(ty_p);
 //    if (idx == 4) {
@@ -86,8 +86,8 @@
 //            ss += c;
 //        }
 //        ap_p[k].score = stoi(ss);
-//        ma[ap_p[k].inf].push_back(ap_p[k].score);
-//        k++;
+//        ma[ap_p[k].inf].push_back(ap_p[k].score); 
+//        k++; 
 //    }
 //    k = 0;
 //    for (string s : query) {
@@ -130,7 +130,7 @@
 //            }
 //            ss += c;
 //        }
-//        q_p[k].score = stoi(ss);
+//        q_p[k].score = stoi(ss); 
 //        k++;
 //    }
 //
