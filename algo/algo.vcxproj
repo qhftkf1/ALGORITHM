@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A+B(5).cpp" />
     <ClCompile Include="ebay.cpp" />
     <ClCompile Include="H-index.cpp" />
     <ClCompile Include="K번째수.cpp" />
