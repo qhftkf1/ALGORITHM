@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\백준">
       <UniqueIdentifier>{dccd8ba4-1eea-4117-bd1b-0f31e958d217}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준\입출력">
+      <UniqueIdentifier>{0ef1ba07-1958-4009-a718-2f69009444b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="호텔방배정.cpp">
@@ -238,7 +241,22 @@
       <Filter>소스 파일\삼성</Filter>
     </ClCompile>
     <ClCompile Include="A+B(5).cpp">
-      <Filter>소스 파일\백준</Filter>
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="A+B(3).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="A+B(6).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="A+B(7).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="빠른 A+B.cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="그대로출력하기.cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

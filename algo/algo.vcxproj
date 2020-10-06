@@ -138,7 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A+B(3).cpp" />
     <ClCompile Include="A+B(5).cpp" />
+    <ClCompile Include="A+B(6).cpp" />
+    <ClCompile Include="A+B(7).cpp" />
     <ClCompile Include="ebay.cpp" />
     <ClCompile Include="H-index.cpp" />
     <ClCompile Include="K번째수.cpp" />
@@ -148,6 +151,7 @@
     <ClCompile Include="N으로 표현.cpp" />
     <ClCompile Include="경주로건설.cpp" />
     <ClCompile Include="구간합구하기.cpp" />
+    <ClCompile Include="그대로출력하기.cpp" />
     <ClCompile Include="단어변환.cpp" />
     <ClCompile Include="동굴탐험.cpp" />
     <ClCompile Include="드래곤커브.cpp" />
@@ -165,6 +169,7 @@
     <ClCompile Include="브라이언의고민.cpp" />
     <ClCompile Include="브랜디.cpp" />
     <ClCompile Include="브랜디2.cpp" />
+    <ClCompile Include="빠른 A+B.cpp" />
     <ClCompile Include="수식최대화.cpp" />
     <ClCompile Include="스킬체크.cpp" />
     <ClCompile Include="스킬체크level1.cpp" />
