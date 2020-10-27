@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\백준\입출력">
       <UniqueIdentifier>{0ef1ba07-1958-4009-a718-2f69009444b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준\DP[1]">
+      <UniqueIdentifier>{807b5a16-0baf-47f9-b0dc-67c469327ba8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="호텔방배정.cpp">
@@ -257,6 +260,69 @@
     </ClCompile>
     <ClCompile Include="그대로출력하기.cpp">
       <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="최소_최대.cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기(5).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="이차열배열과연산.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기(9).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기(16).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기(17).cpp">
+      <Filter>소스 파일\백준\입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="청소년상어2.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="등산로.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="퇴사.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="시험감독.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="구슬탈출2.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="2048.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="인구이동.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="감시.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="나무 재테크.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="게리멘더링2.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기.cpp">
+      <Filter>소스 파일\백준\DP[1]</Filter>
+    </ClCompile>
+    <ClCompile Include="스티커.cpp">
+      <Filter>소스 파일\백준\DP[1]</Filter>
+    </ClCompile>
+    <ClCompile Include="포도주.cpp">
+      <Filter>소스 파일\백준\DP[1]</Filter>
+    </ClCompile>
+    <ClCompile Include="가장긴증가하는부분수열cpp.cpp">
+      <Filter>소스 파일\백준\DP[1]</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

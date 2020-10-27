@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -138,6 +138,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1로만들기.cpp" />
+    <ClCompile Include="2048.cpp" />
     <ClCompile Include="A+B(3).cpp" />
     <ClCompile Include="A+B(5).cpp" />
     <ClCompile Include="A+B(6).cpp" />
@@ -149,13 +151,19 @@
     <ClCompile Include="naver1.cpp" />
     <ClCompile Include="naver3.cpp" />
     <ClCompile Include="N으로 표현.cpp" />
+    <ClCompile Include="가장긴증가하는부분수열cpp.cpp" />
+    <ClCompile Include="감시.cpp" />
+    <ClCompile Include="게리멘더링2.cpp" />
     <ClCompile Include="경주로건설.cpp" />
     <ClCompile Include="구간합구하기.cpp" />
+    <ClCompile Include="구슬탈출2.cpp" />
     <ClCompile Include="그대로출력하기.cpp" />
+    <ClCompile Include="나무 재테크.cpp" />
     <ClCompile Include="단어변환.cpp" />
     <ClCompile Include="동굴탐험.cpp" />
     <ClCompile Include="드래곤커브.cpp" />
     <ClCompile Include="등굣길.cpp" />
+    <ClCompile Include="등산로.cpp" />
     <ClCompile Include="라인1.cpp" />
     <ClCompile Include="라인2.cpp" />
     <ClCompile Include="라인3.cpp" />
@@ -164,6 +172,10 @@
     <ClCompile Include="모의테스프B.c" />
     <ClCompile Include="무지의 먹방 라이브.cpp" />
     <ClCompile Include="문자열.cpp" />
+    <ClCompile Include="별찍기(16).cpp" />
+    <ClCompile Include="별찍기(17).cpp" />
+    <ClCompile Include="별찍기(5).cpp" />
+    <ClCompile Include="별찍기(9).cpp" />
     <ClCompile Include="보급로.cpp" />
     <ClCompile Include="불량사용자.cpp" />
     <ClCompile Include="브라이언의고민.cpp" />
@@ -179,10 +191,15 @@
     <ClCompile Include="스킬체크level4.cpp" />
     <ClCompile Include="스타트_택시.cpp" />
     <ClCompile Include="스타트와링크.cpp" />
+    <ClCompile Include="스티커.cpp" />
     <ClCompile Include="승자예측하기.cpp" />
+    <ClCompile Include="시험감독.cpp" />
     <ClCompile Include="알고스팟.cpp" />
     <ClCompile Include="압축.cpp" />
     <ClCompile Include="야구.cpp" />
+    <ClCompile Include="연산자 끼워넣기.cpp" />
+    <ClCompile Include="이차열배열과연산.cpp" />
+    <ClCompile Include="인구이동.cpp" />
     <ClCompile Include="입국 심사.cpp" />
     <ClCompile Include="자동완성.cpp" />
     <ClCompile Include="자물쇠와열쇠.cpp" />
@@ -194,12 +211,14 @@
     <ClCompile Include="징검다리.cpp" />
     <ClCompile Include="징검다리건너기.cpp" />
     <ClCompile Include="청소년상어.cpp" />
+    <ClCompile Include="청소년상어2.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="괄호변환.cpp" />
     <ClCompile Include="보석쇼핑.cpp" />
     <ClCompile Include="초콜릿과건포도.cpp" />
     <ClCompile Include="최대상금.cpp" />
     <ClCompile Include="단체 사진 찍기.cpp" />
+    <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="치킨배달.cpp" />
     <ClCompile Include="카카오1.cpp" />
     <ClCompile Include="카카오1번.cpp" />
@@ -209,7 +228,9 @@
     <ClCompile Include="크레인 인형뽑기 게임.cpp" />
     <ClCompile Include="테트로미노.cpp" />
     <ClCompile Include="톱니바퀴.cpp" />
+    <ClCompile Include="퇴사.cpp" />
     <ClCompile Include="튜플.cpp" />
+    <ClCompile Include="포도주.cpp" />
     <ClCompile Include="프로그래밍1.cpp" />
     <ClCompile Include="프로그래밍2.cpp" />
     <ClCompile Include="프린터.cpp" />
