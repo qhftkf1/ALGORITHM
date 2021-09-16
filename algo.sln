@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algo", "algo\algo.vcxproj", "{CF694A48-C95B-43A4-8751-4AA23C37248F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm", "..\..\..\vs_code_prj\algorithm\42somoim2\seusong\algorithm.vcxproj", "{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,14 +21,6 @@ Global
 		{CF694A48-C95B-43A4-8751-4AA23C37248F}.Release|x64.Build.0 = Release|x64
 		{CF694A48-C95B-43A4-8751-4AA23C37248F}.Release|x86.ActiveCfg = Release|Win32
 		{CF694A48-C95B-43A4-8751-4AA23C37248F}.Release|x86.Build.0 = Release|Win32
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Debug|x64.ActiveCfg = Debug|x64
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Debug|x64.Build.0 = Debug|x64
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Debug|x86.ActiveCfg = Debug|Win32
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Debug|x86.Build.0 = Debug|Win32
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Release|x64.ActiveCfg = Release|x64
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Release|x64.Build.0 = Release|x64
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Release|x86.ActiveCfg = Release|Win32
-		{2BC968EA-8F22-428A-BD7A-47FBF28C9D99}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -99,6 +99,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,6 +148,7 @@
     <ClCompile Include="ebay.cpp" />
     <ClCompile Include="H-index.cpp" />
     <ClCompile Include="K번째수.cpp" />
+    <ClCompile Include="main_cc.cpp" />
     <ClCompile Include="naver.2.cpp" />
     <ClCompile Include="naver1.cpp" />
     <ClCompile Include="naver3.cpp" />
@@ -201,6 +203,7 @@
     <ClCompile Include="이차열배열과연산.cpp" />
     <ClCompile Include="인구이동.cpp" />
     <ClCompile Include="입국 심사.cpp" />
+    <ClCompile Include="입실퇴실.cpp" />
     <ClCompile Include="자동완성.cpp" />
     <ClCompile Include="자물쇠와열쇠.cpp" />
     <ClCompile Include="잔디깍기.cpp" />
@@ -236,6 +239,9 @@
     <ClCompile Include="프린터.cpp" />
     <ClCompile Include="호텔방배정.cpp" />
     <ClCompile Include="회문1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="programmers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

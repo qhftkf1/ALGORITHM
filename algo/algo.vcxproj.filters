@@ -297,9 +297,6 @@
     <ClCompile Include="구슬탈출2.cpp">
       <Filter>소스 파일\삼성</Filter>
     </ClCompile>
-    <ClCompile Include="2048.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="인구이동.cpp">
       <Filter>소스 파일\삼성</Filter>
     </ClCompile>
@@ -324,5 +321,19 @@
     <ClCompile Include="가장긴증가하는부분수열cpp.cpp">
       <Filter>소스 파일\백준\DP[1]</Filter>
     </ClCompile>
+    <ClCompile Include="2048.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="main_cc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입실퇴실.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="programmers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
