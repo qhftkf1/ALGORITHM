@@ -1,33 +1,32 @@
+/*
+ 다리를 지나는 트럭
+*/
+
 #include <string>
 #include <vector>
 #include <queue>
-#include <algorithm>
-#include <iostream>
 
 using namespace std;
 
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
-    int answer = 0;
-    int cnt = 0;
-    int i = 0;
-    int sum = 0;
-    queue<int> bus;
+    int answer = 0; int i = 0; int sum = 0;
+   queue<int> pipe;
     
-    sort(truck_weights.begin(), truck_weights.end());
-    bus.push(truck_weights[i++]);
-    while(!bus.empty())
-    {
-        if(bus.size() < bridge_length)
-        {
-            if(sum + truck_weights[i] <= weight)
-            {
-                bus.push(truck_weights[i]);
-                sum += truck_weights[i];
-                i++;
-            }else sum = 0;
+    while(1){
+        answer++;
+        if(pipe.size() == bridge_length){
+           sum -= pipe.front();
+           pipe.pop();
         }
-        cnt++;
-        bus.pop();       
+        if(sum + truck_weights[i] <= weight){
+            if(i == truck_weights.size() - 1){
+                answer += bridge_length;
+                break;
+            }
+            sum += truck_weights[i];
+            pipe.push(truck_weights[i]);
+            i++;
+        }else pipe.push(0);
     }
-    return cnt;
+    return answer;
 }
